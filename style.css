@@ -1,0 +1,19 @@
+.card {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+#weathericon{
+    display: none;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(91,125,153,1) 0%);
+}

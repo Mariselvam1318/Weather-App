@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
+<body>
+    <div class="card">
+        <div class="container-fluid">
+            <h1 class="text-center">Weather App</h1>
+            <div  class=" mb-3">
+                <img src="https://nordicapis.com/wp-content/uploads/6-Best-Free-and-Paid-Weather-APIs.png" alt="">
+            </div>
+            <div class="input-group mb-3">
+                <input type="text" id="location"  class="form-control" placeholder="Enter location">  
+            </div>
+            <div class="d-grid gap-2 col-3 mx-auto">
+                <button onclick="getweather()" type="submit" class="btn btn-success">Search</button>
+            </div>
+            <div class="container-fluid p-5 text-center">
+                <p id="temperature"></p>
+                <p id="weatherinfo"></p>
+                <img class="mx-auto" id="weathericon" alt="Weather icon">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
